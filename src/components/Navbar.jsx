@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img style={{borderRadius:"50%"}} src={"https://media.licdn.com/dms/image/D5603AQFzpQakSp6Xog/profile-displayphoto-shrink_800_800/0/1637476827718?e=1695254400&v=beta&t=EouBtuSqzTOn5Nm-ud7PZ7za8xqodgdH9e-XQLd-vHY"} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+          Bhawani Singh &nbsp;
+            <span className='sm:block hidden'> | Web Mastery</span>
           </p>
         </Link>
 

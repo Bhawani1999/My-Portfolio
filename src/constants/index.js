@@ -6,19 +6,19 @@ import {
   html,
   css,
   reactjs,
- 
+
   tailwind,
- 
+
   git,
-  
+
   meta,
- 
+
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
- 
+
 } from "../assets";
 // import landtlogo from "../assets/company/landt.png"
 export const navLinks = [
@@ -89,42 +89,34 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Bhawani is a perfect example of a skilled engineer and he brings all the abilities to the table. he is focused, reliable, and goal-oriented, which inspired our team to be more like his and always do our best. he is kind and an outstanding person and knows how to bring the best out of each person. He is always enthusiastic and energetic to learn new technologies ! keep rocking and doing best.",
+    name: "Deepak Kumbhar",
+    designation: "Senior cloud and infrastructure engineer C2",
+    company: "Capgemini",
+    image: "https://media.licdn.com/dms/image/C5603AQHCr1R_ne2Hbg/profile-displayphoto-shrink_800_800/0/1648568733450?e=1695254400&v=beta&t=wlHBLZ12Q2wl3x6T_z6GB3S3h1VB2ymOa7XL6IJEMHc",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Bhawani is a talented and skilled engineer who consistently delivers exceptional results. His kindness and outstanding personality make him a joy to work with. Bhawani's passion for learning and embracing new technologies are a testament to his commitment to excellence. I have no doubt that he will continue to excel and succeed in all his endeavors.",
+    name: "Ranjit Suryawanshi",
+    designation: "Junior Software Developer",
+    company: "Bearish OS, USA",
+    image: "https://media.licdn.com/dms/image/C4E03AQF63ZvFn3Wlpg/profile-displayphoto-shrink_800_800/0/1645549366231?e=1695254400&v=beta&t=u-csaUQGYrihGJtXp9jwoDVaXcLctq--SISEdyg44qc",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Portfolio Using React JS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "It incorporates various libraries and packages to enable the implementation of interactive and visually appealing 3D components. The project leverages the capabilities of React to create a dynamic user interface and incorporates several additional dependencies to enhance its functionality. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -132,49 +124,24 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: "https://user-images.githubusercontent.com/58848743/254360567-4ee360a7-9176-45d8-a1bb-c8bf0de5ffe1.png",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Path finder Visualizer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Path Finder Visualizer using A* Algorithm is a simple application that visually demonstrates the A* algorithm for finding the shortest path between two points on a grid., and observe how the algorithm dynamically adjusts its path to navigate around obstacles. It provides an intuitive interface to understand the efficiency of the A* algorithm in solving pathfinding problems.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "A*Algorithm",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: "https://user-images.githubusercontent.com/74762032/208245561-bf6a89c2-0a14-4aa7-a4ce-057a628fdaff.jpg",
     source_code_link: "https://github.com/",
   },
 ];
